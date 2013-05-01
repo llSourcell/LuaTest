@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<dict>
+		<key>key</key>
+		<string>name</string>
+		<key>type</key>
+		<string>NSString</string>
+	</dict>
+	<key>priceLevel</key>
+	<dict>
+		<key>key</key>
+		<string>price_level</string>
+		<key>type</key>
+		<string>NSNumber</string>
+	</dict>
+	<key>latitude</key>
+	<dict>
+		<key>key</key>
+		<string>geometry.location.lat</string>
+		<key>type</key>
+		<string>NSNumber</string>
+	</dict>
+	<key>longitude</key>
+	<dict>
+		<key>key</key>
+		<string>geometry.location.lng</string>
+		<key>type</key>
+		<string>NSNumber</string>
+	</dict>
+	<key>iconURL</key>
+	<dict>
+		<key>key</key>
+		<string>icon</string>
+		<key>type</key>
+		<string>NSString</string>
+	</dict>
+	<key>vicinity</key>
+	<dict>
+		<key>key</key>
+		<string>vicinity</string>
+		<key>type</key>
+		<string>NSString</string>
+	</dict>
+</dict>
+</plist>

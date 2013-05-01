@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A550E25D76C456680AA9A61 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B57D0861239429F96300783 /* libPods.a */; };
+		137F7B6916F00F6D006FE17A /* GRViewController+Modal.m in Sources */ = {isa = PBXBuildFile; fileRef = 137F7B6816F00F6D006FE17A /* GRViewController+Modal.m */; };
+		137F7B6E16F01D6A006FE17A /* GRHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 137F7B6D16F01D6A006FE17A /* GRHTTPClient.m */; };
+		137F7B7116F01E31006FE17A /* GRJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 137F7B7016F01E31006FE17A /* GRJSONRequestOperation.m */; };
+		137F7B7716F02057006FE17A /* GRNetworkResultsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 137F7B7616F02057006FE17A /* GRNetworkResultsController.m */; };
+		137F7B7A16F0212B006FE17A /* GRLocalRestautantController.m in Sources */ = {isa = PBXBuildFile; fileRef = 137F7B7916F0212B006FE17A /* GRLocalRestautantController.m */; };
+		137F7B7F16F0243B006FE17A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 137F7B7E16F0243B006FE17A /* CoreLocation.framework */; };
+		137F7B8116F02445006FE17A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 137F7B8016F02445006FE17A /* MapKit.framework */; };
+		137F7B8516F02C50006FE17A /* GRCoreLocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 137F7B8416F02C50006FE17A /* GRCoreLocationController.m */; };
+		137F7B9716F04744006FE17A /* CSAPIBoolMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 137F7B8916F04744006FE17A /* CSAPIBoolMapper.m */; };
+		137F7B9816F04744006FE17A /* CSCountMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 137F7B8B16F04744006FE17A /* CSCountMapper.m */; };
+		137F7B9916F04744006FE17A /* CSJoinMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 137F7B8D16F04744006FE17A /* CSJoinMapper.m */; };
+		137F7B9A16F04744006FE17A /* CSMapper.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 137F7B8F16F04744006FE17A /* CSMapper.podspec */; };
+		137F7B9B16F04744006FE17A /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 137F7B9016F04744006FE17A /* LICENSE */; };
+		137F7B9C16F04744006FE17A /* NSObject+CSAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 137F7B9216F04744006FE17A /* NSObject+CSAPI.m */; };
+		137F7B9D16F04744006FE17A /* README in Resources */ = {isa = PBXBuildFile; fileRef = 137F7B9316F04744006FE17A /* README */; };
+		137F7BA216F047EA006FE17A /* GRRestaurantLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 137F7BA116F047EA006FE17A /* GRRestaurantLocation.m */; };
+		137F7BA516F049F6006FE17A /* GRRestaurantLocation.plist in Resources */ = {isa = PBXBuildFile; fileRef = 137F7BA416F049F6006FE17A /* GRRestaurantLocation.plist */; };
+		137F7BA916F073CF006FE17A /* GRDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 137F7BA816F073CF006FE17A /* GRDetailView.m */; };
+		1396E57816EFFA0500387830 /* GRLocalMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1396E57716EFFA0500387830 /* GRLocalMapViewController.m */; };
+		13ED7F1916EF949E00633323 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13ED7F1816EF949E00633323 /* UIKit.framework */; };
+		13ED7F1B16EF949E00633323 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13ED7F1A16EF949E00633323 /* Foundation.framework */; };
+		13ED7F1D16EF949E00633323 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13ED7F1C16EF949E00633323 /* CoreGraphics.framework */; };
+		13ED7F2316EF949E00633323 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13ED7F2116EF949E00633323 /* InfoPlist.strings */; };
+		13ED7F2516EF949E00633323 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13ED7F2416EF949E00633323 /* main.m */; };
+		13ED7F2916EF949E00633323 /* GRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13ED7F2816EF949E00633323 /* GRAppDelegate.m */; };
+		13ED7F2B16EF949E00633323 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 13ED7F2A16EF949E00633323 /* Default.png */; };
+		13ED7F2D16EF949E00633323 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 13ED7F2C16EF949E00633323 /* Default@2x.png */; };
+		13ED7F2F16EF949E00633323 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 13ED7F2E16EF949E00633323 /* Default-568h@2x.png */; };
+		13ED7F3216EF949E00633323 /* GRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13ED7F3116EF949E00633323 /* GRViewController.m */; };
+		13ED7F3C16EF963600633323 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13ED7F3B16EF963500633323 /* QuartzCore.framework */; };
+		13ED7F3F16EF9A6B00633323 /* GRRestaurantDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13ED7F3E16EF9A6A00633323 /* GRRestaurantDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		137F7B6716F00F6D006FE17A /* GRViewController+Modal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GRViewController+Modal.h"; sourceTree = "<group>"; };
+		137F7B6816F00F6D006FE17A /* GRViewController+Modal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GRViewController+Modal.m"; sourceTree = "<group>"; };
+		137F7B6C16F01D6A006FE17A /* GRHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRHTTPClient.h; sourceTree = "<group>"; };
+		137F7B6D16F01D6A006FE17A /* GRHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRHTTPClient.m; sourceTree = "<group>"; };
+		137F7B6F16F01E31006FE17A /* GRJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRJSONRequestOperation.h; sourceTree = "<group>"; };
+		137F7B7016F01E31006FE17A /* GRJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRJSONRequestOperation.m; sourceTree = "<group>"; };
+		137F7B7516F02057006FE17A /* GRNetworkResultsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRNetworkResultsController.h; sourceTree = "<group>"; };
+		137F7B7616F02057006FE17A /* GRNetworkResultsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRNetworkResultsController.m; sourceTree = "<group>"; };
+		137F7B7816F0212A006FE17A /* GRLocalRestautantController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRLocalRestautantController.h; sourceTree = "<group>"; };
+		137F7B7916F0212B006FE17A /* GRLocalRestautantController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRLocalRestautantController.m; sourceTree = "<group>"; };
+		137F7B7E16F0243B006FE17A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		137F7B8016F02445006FE17A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		137F7B8316F02C50006FE17A /* GRCoreLocationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRCoreLocationController.h; sourceTree = "<group>"; };
+		137F7B8416F02C50006FE17A /* GRCoreLocationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRCoreLocationController.m; sourceTree = "<group>"; };
+		137F7B8816F04744006FE17A /* CSAPIBoolMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSAPIBoolMapper.h; sourceTree = "<group>"; };
+		137F7B8916F04744006FE17A /* CSAPIBoolMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSAPIBoolMapper.m; sourceTree = "<group>"; };
+		137F7B8A16F04744006FE17A /* CSCountMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSCountMapper.h; sourceTree = "<group>"; };
+		137F7B8B16F04744006FE17A /* CSCountMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSCountMapper.m; sourceTree = "<group>"; };
+		137F7B8C16F04744006FE17A /* CSJoinMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSJoinMapper.h; sourceTree = "<group>"; };
+		137F7B8D16F04744006FE17A /* CSJoinMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSJoinMapper.m; sourceTree = "<group>"; };
+		137F7B8E16F04744006FE17A /* CSMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSMapper.h; sourceTree = "<group>"; };
+		137F7B8F16F04744006FE17A /* CSMapper.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CSMapper.podspec; sourceTree = "<group>"; };
+		137F7B9016F04744006FE17A /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		137F7B9116F04744006FE17A /* NSObject+CSAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CSAPI.h"; sourceTree = "<group>"; };
+		137F7B9216F04744006FE17A /* NSObject+CSAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CSAPI.m"; sourceTree = "<group>"; };
+		137F7B9316F04744006FE17A /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		137F7BA016F047EA006FE17A /* GRRestaurantLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRRestaurantLocation.h; sourceTree = "<group>"; };
+		137F7BA116F047EA006FE17A /* GRRestaurantLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRRestaurantLocation.m; sourceTree = "<group>"; };
+		137F7BA416F049F6006FE17A /* GRRestaurantLocation.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GRRestaurantLocation.plist; sourceTree = "<group>"; };
+		137F7BA716F073CF006FE17A /* GRDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRDetailView.h; sourceTree = "<group>"; };
+		137F7BA816F073CF006FE17A /* GRDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRDetailView.m; sourceTree = "<group>"; };
+		1396E57616EFFA0500387830 /* GRLocalMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRLocalMapViewController.h; sourceTree = "<group>"; };
+		1396E57716EFFA0500387830 /* GRLocalMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRLocalMapViewController.m; sourceTree = "<group>"; };
+		13ED7F1516EF949E00633323 /* GoogleRestaurant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleRestaurant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13ED7F1816EF949E00633323 /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		13ED7F1A16EF949E00633323 /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		13ED7F1C16EF949E00633323 /* CoreGraphics.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		13ED7F2016EF949E00633323 /* GoogleRestaurant-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleRestaurant-Info.plist"; sourceTree = "<group>"; };
+		13ED7F2216EF949E00633323 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		13ED7F2416EF949E00633323 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		13ED7F2616EF949E00633323 /* GoogleRestaurant-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GoogleRestaurant-Prefix.pch"; sourceTree = "<group>"; };
+		13ED7F2716EF949E00633323 /* GRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GRAppDelegate.h; sourceTree = "<group>"; };
+		13ED7F2816EF949E00633323 /* GRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GRAppDelegate.m; sourceTree = "<group>"; };
+		13ED7F2A16EF949E00633323 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		13ED7F2C16EF949E00633323 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		13ED7F2E16EF949E00633323 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		13ED7F3016EF949E00633323 /* GRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GRViewController.h; sourceTree = "<group>"; };
+		13ED7F3116EF949E00633323 /* GRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GRViewController.m; sourceTree = "<group>"; };
+		13ED7F3B16EF963500633323 /* QuartzCore.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		13ED7F3D16EF9A6A00633323 /* GRRestaurantDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRRestaurantDetailViewController.h; sourceTree = "<group>"; };
+		13ED7F3E16EF9A6A00633323 /* GRRestaurantDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRRestaurantDetailViewController.m; sourceTree = "<group>"; };
+		5B57D0861239429F96300783 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB3BD21476984886944EE801 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13ED7F1216EF949D00633323 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				137F7B8116F02445006FE17A /* MapKit.framework in Frameworks */,
+				137F7B7F16F0243B006FE17A /* CoreLocation.framework in Frameworks */,
+				13ED7F3C16EF963600633323 /* QuartzCore.framework in Frameworks */,
+				13ED7F1916EF949E00633323 /* UIKit.framework in Frameworks */,
+				13ED7F1B16EF949E00633323 /* Foundation.framework in Frameworks */,
+				13ED7F1D16EF949E00633323 /* CoreGraphics.framework in Frameworks */,
+				0A550E25D76C456680AA9A61 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		137F7B6A16F01CD9006FE17A /* Network Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				137F7B6B16F01D18006FE17A /* Common */,
+				137F7B8216F02C3B006FE17A /* GeoLocation */,
+				137F7B7B16F0212F006FE17A /* Local Search */,
+			);
+			name = "Network Controllers";
+			sourceTree = "<group>";
+		};
+		137F7B6B16F01D18006FE17A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				137F7B6C16F01D6A006FE17A /* GRHTTPClient.h */,
+				137F7B6D16F01D6A006FE17A /* GRHTTPClient.m */,
+				137F7B6F16F01E31006FE17A /* GRJSONRequestOperation.h */,
+				137F7B7016F01E31006FE17A /* GRJSONRequestOperation.m */,
+				137F7B7516F02057006FE17A /* GRNetworkResultsController.h */,
+				137F7B7616F02057006FE17A /* GRNetworkResultsController.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		137F7B7B16F0212F006FE17A /* Local Search */ = {
+			isa = PBXGroup;
+			children = (
+				137F7B7816F0212A006FE17A /* GRLocalRestautantController.h */,
+				137F7B7916F0212B006FE17A /* GRLocalRestautantController.m */,
+			);
+			name = "Local Search";
+			sourceTree = "<group>";
+		};
+		137F7B7C16F023C8006FE17A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				137F7BA316F049DE006FE17A /* DataMapping */,
+				13ED7F2A16EF949E00633323 /* Default.png */,
+				13ED7F2C16EF949E00633323 /* Default@2x.png */,
+				13ED7F2E16EF949E00633323 /* Default-568h@2x.png */,
+			);
+			name = Resources;
+			path = GoogleRestaurant;
+			sourceTree = "<group>";
+		};
+		137F7B7D16F023EF006FE17A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1396E57B16EFFE6200387830 /* Categories */,
+				1396E57416EFF77100387830 /* Application */,
+				137F7B9F16F047D0006FE17A /* Model */,
+				1396E56916EFD0DD00387830 /* Controllers */,
+				137F7BA616F07257006FE17A /* Views */,
+				137F7B6A16F01CD9006FE17A /* Network Controllers */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		137F7B8216F02C3B006FE17A /* GeoLocation */ = {
+			isa = PBXGroup;
+			children = (
+				137F7B8316F02C50006FE17A /* GRCoreLocationController.h */,
+				137F7B8416F02C50006FE17A /* GRCoreLocationController.m */,
+			);
+			name = GeoLocation;
+			sourceTree = "<group>";
+		};
+		137F7B8616F04735006FE17A /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				137F7B8716F04744006FE17A /* CSMapper */,
+			);
+			name = Library;
+			path = GoogleRestaurant;
+			sourceTree = "<group>";
+		};
+		137F7B8716F04744006FE17A /* CSMapper */ = {
+			isa = PBXGroup;
+			children = (
+				137F7B8816F04744006FE17A /* CSAPIBoolMapper.h */,
+				137F7B8916F04744006FE17A /* CSAPIBoolMapper.m */,
+				137F7B8A16F04744006FE17A /* CSCountMapper.h */,
+				137F7B8B16F04744006FE17A /* CSCountMapper.m */,
+				137F7B8C16F04744006FE17A /* CSJoinMapper.h */,
+				137F7B8D16F04744006FE17A /* CSJoinMapper.m */,
+				137F7B8E16F04744006FE17A /* CSMapper.h */,
+				137F7B8F16F04744006FE17A /* CSMapper.podspec */,
+				137F7B9016F04744006FE17A /* LICENSE */,
+				137F7B9116F04744006FE17A /* NSObject+CSAPI.h */,
+				137F7B9216F04744006FE17A /* NSObject+CSAPI.m */,
+				137F7B9316F04744006FE17A /* README */,
+			);
+			path = CSMapper;
+			sourceTree = "<group>";
+		};
+		137F7B9F16F047D0006FE17A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				137F7BA016F047EA006FE17A /* GRRestaurantLocation.h */,
+				137F7BA116F047EA006FE17A /* GRRestaurantLocation.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		137F7BA316F049DE006FE17A /* DataMapping */ = {
+			isa = PBXGroup;
+			children = (
+				137F7BA416F049F6006FE17A /* GRRestaurantLocation.plist */,
+			);
+			name = DataMapping;
+			sourceTree = "<group>";
+		};
+		137F7BA616F07257006FE17A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				137F7BAA16F075D2006FE17A /* Detail */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		137F7BAA16F075D2006FE17A /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				137F7BA716F073CF006FE17A /* GRDetailView.h */,
+				137F7BA816F073CF006FE17A /* GRDetailView.m */,
+			);
+			name = Detail;
+			sourceTree = "<group>";
+		};
+		1396E56916EFD0DD00387830 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1396E57A16EFFDDC00387830 /* Extended Controllers */,
+				1396E57516EFF79100387830 /* Local Map */,
+				1396E57916EFFDCE00387830 /* Detail */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		1396E57416EFF77100387830 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				13ED7F2716EF949E00633323 /* GRAppDelegate.h */,
+				13ED7F2816EF949E00633323 /* GRAppDelegate.m */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		1396E57516EFF79100387830 /* Local Map */ = {
+			isa = PBXGroup;
+			children = (
+				1396E57616EFFA0500387830 /* GRLocalMapViewController.h */,
+				1396E57716EFFA0500387830 /* GRLocalMapViewController.m */,
+			);
+			name = "Local Map";
+			sourceTree = "<group>";
+		};
+		1396E57916EFFDCE00387830 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				13ED7F3D16EF9A6A00633323 /* GRRestaurantDetailViewController.h */,
+				13ED7F3E16EF9A6A00633323 /* GRRestaurantDetailViewController.m */,
+			);
+			name = Detail;
+			sourceTree = "<group>";
+		};
+		1396E57A16EFFDDC00387830 /* Extended Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				13ED7F3016EF949E00633323 /* GRViewController.h */,
+				13ED7F3116EF949E00633323 /* GRViewController.m */,
+			);
+			name = "Extended Controllers";
+			sourceTree = "<group>";
+		};
+		1396E57B16EFFE6200387830 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				137F7B6716F00F6D006FE17A /* GRViewController+Modal.h */,
+				137F7B6816F00F6D006FE17A /* GRViewController+Modal.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		13ED7F0C16EF949D00633323 = {
+			isa = PBXGroup;
+			children = (
+				137F7B8016F02445006FE17A /* MapKit.framework */,
+				137F7B7E16F0243B006FE17A /* CoreLocation.framework */,
+				13ED7F1E16EF949E00633323 /* GoogleRestaurant */,
+				137F7B8616F04735006FE17A /* Library */,
+				137F7B7C16F023C8006FE17A /* Resources */,
+				13ED7F1F16EF949E00633323 /* Supporting Files */,
+				13ED7F1716EF949E00633323 /* Frameworks */,
+				13ED7F1616EF949E00633323 /* Products */,
+				FB3BD21476984886944EE801 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		13ED7F1616EF949E00633323 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13ED7F1516EF949E00633323 /* GoogleRestaurant.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13ED7F1716EF949E00633323 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13ED7F3B16EF963500633323 /* QuartzCore.framework */,
+				13ED7F1816EF949E00633323 /* UIKit.framework */,
+				13ED7F1A16EF949E00633323 /* Foundation.framework */,
+				13ED7F1C16EF949E00633323 /* CoreGraphics.framework */,
+				5B57D0861239429F96300783 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		13ED7F1E16EF949E00633323 /* GoogleRestaurant */ = {
+			isa = PBXGroup;
+			children = (
+				137F7B7D16F023EF006FE17A /* Classes */,
+			);
+			path = GoogleRestaurant;
+			sourceTree = "<group>";
+		};
+		13ED7F1F16EF949E00633323 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13ED7F2016EF949E00633323 /* GoogleRestaurant-Info.plist */,
+				13ED7F2116EF949E00633323 /* InfoPlist.strings */,
+				13ED7F2416EF949E00633323 /* main.m */,
+				13ED7F2616EF949E00633323 /* GoogleRestaurant-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = GoogleRestaurant;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13ED7F1416EF949D00633323 /* GoogleRestaurant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13ED7F3816EF949E00633323 /* Build configuration list for PBXNativeTarget "GoogleRestaurant" */;
+			buildPhases = (
+				13ED7F1116EF949D00633323 /* Sources */,
+				13ED7F1216EF949D00633323 /* Frameworks */,
+				13ED7F1316EF949D00633323 /* Resources */,
+				9A4B65488C7C40A386BD8F77 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleRestaurant;
+			productName = GoogleRestaurant;
+			productReference = 13ED7F1516EF949E00633323 /* GoogleRestaurant.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13ED7F0D16EF949D00633323 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GR;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Buddy Apps";
+			};
+			buildConfigurationList = 13ED7F1016EF949D00633323 /* Build configuration list for PBXProject "GoogleRestaurant" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 13ED7F0C16EF949D00633323;
+			productRefGroup = 13ED7F1616EF949E00633323 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13ED7F1416EF949D00633323 /* GoogleRestaurant */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13ED7F1316EF949D00633323 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13ED7F2316EF949E00633323 /* InfoPlist.strings in Resources */,
+				13ED7F2B16EF949E00633323 /* Default.png in Resources */,
+				13ED7F2D16EF949E00633323 /* Default@2x.png in Resources */,
+				13ED7F2F16EF949E00633323 /* Default-568h@2x.png in Resources */,
+				137F7B9A16F04744006FE17A /* CSMapper.podspec in Resources */,
+				137F7B9B16F04744006FE17A /* LICENSE in Resources */,
+				137F7B9D16F04744006FE17A /* README in Resources */,
+				137F7BA516F049F6006FE17A /* GRRestaurantLocation.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9A4B65488C7C40A386BD8F77 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13ED7F1116EF949D00633323 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13ED7F2516EF949E00633323 /* main.m in Sources */,
+				13ED7F2916EF949E00633323 /* GRAppDelegate.m in Sources */,
+				13ED7F3216EF949E00633323 /* GRViewController.m in Sources */,
+				13ED7F3F16EF9A6B00633323 /* GRRestaurantDetailViewController.m in Sources */,
+				1396E57816EFFA0500387830 /* GRLocalMapViewController.m in Sources */,
+				137F7B6916F00F6D006FE17A /* GRViewController+Modal.m in Sources */,
+				137F7B6E16F01D6A006FE17A /* GRHTTPClient.m in Sources */,
+				137F7B7116F01E31006FE17A /* GRJSONRequestOperation.m in Sources */,
+				137F7B7716F02057006FE17A /* GRNetworkResultsController.m in Sources */,
+				137F7B7A16F0212B006FE17A /* GRLocalRestautantController.m in Sources */,
+				137F7B8516F02C50006FE17A /* GRCoreLocationController.m in Sources */,
+				137F7B9716F04744006FE17A /* CSAPIBoolMapper.m in Sources */,
+				137F7B9816F04744006FE17A /* CSCountMapper.m in Sources */,
+				137F7B9916F04744006FE17A /* CSJoinMapper.m in Sources */,
+				137F7B9C16F04744006FE17A /* NSObject+CSAPI.m in Sources */,
+				137F7BA216F047EA006FE17A /* GRRestaurantLocation.m in Sources */,
+				137F7BA916F073CF006FE17A /* GRDetailView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		13ED7F2116EF949E00633323 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13ED7F2216EF949E00633323 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13ED7F3616EF949E00633323 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		13ED7F3716EF949E00633323 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13ED7F3916EF949E00633323 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB3BD21476984886944EE801 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoogleRestaurant/GoogleRestaurant-Prefix.pch";
+				INFOPLIST_FILE = "GoogleRestaurant/GoogleRestaurant-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		13ED7F3A16EF949E00633323 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB3BD21476984886944EE801 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoogleRestaurant/GoogleRestaurant-Prefix.pch";
+				INFOPLIST_FILE = "GoogleRestaurant/GoogleRestaurant-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13ED7F1016EF949D00633323 /* Build configuration list for PBXProject "GoogleRestaurant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13ED7F3616EF949E00633323 /* Debug */,
+				13ED7F3716EF949E00633323 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13ED7F3816EF949E00633323 /* Build configuration list for PBXNativeTarget "GoogleRestaurant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13ED7F3916EF949E00633323 /* Debug */,
+				13ED7F3A16EF949E00633323 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13ED7F0D16EF949D00633323 /* Project object */;
+}
